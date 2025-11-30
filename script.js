@@ -6,10 +6,6 @@ const prev = document.querySelector(".prev");
 const containerImages = document.querySelector(".container");
 let index = 0;
 
-next.style.backgroundColor = "#0091dfff";
-prev.style.backgroundColor = "#0091dfff";
-next.style.border = "none";
-prev.style.border = "none";
 
 images.forEach((image) => {
     image.addEventListener("click", () => {
